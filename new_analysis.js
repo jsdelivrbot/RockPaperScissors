@@ -149,7 +149,7 @@ if ((Wins===RockWins+PaperWins+ScissorsWins) && (Losses===RockLosses+PaperLosses
 	PaperTiesPercent = CalcPercent(PaperTies) + "%";
 	PaperLossesPercent = CalcPercent(PaperLosses) + "%";
 	PaperWinsPercent = CalcPercent(PaperWins) + "%";
-	ScissorsTiesPercent = CalcPercent(ScissorsTies + "%");
+	ScissorsTiesPercent = CalcPercent(ScissorsTies) + "%";
 	ScissorsWinsPercent	= CalcPercent(ScissorsWins) + "%";
 	ScissorsLossesPercent = CalcPercent(ScissorsLosses) + "%";
 }
