@@ -165,27 +165,38 @@ function Rename(element) {
 		case RockWinsHTML: 
 							RockWinsHTML.innerHTML = "Rock Wins: "+RockWins+" ("+RockWinsPercent+")";
 							break;
-		case RockLossesHTML: 
+		case RockLossesHTML:
+							RockLossesHTML.innerHTML = "Rock Losses: "+RockLosses+" ("+RockLossesPercent+")"; 
 							break;
 		case RockTiesHTML: 
+							RockTiesHTML.innerHTML = "Rock Ties: "+RockTies+" ("+RockTiesPercent+")";
 							break;
 		case PaperWinsHTML: 
+							PaperWinsHTML.innerHTML = "Paper Wins: "+PaperWins+" ("+PaperWinsPercent+")";
 							break;
 		case PaperLossesHTML: 
+							PaperLossesHTML.innerHTML = "Paper Losses: "+PaperLosses+" ("+PaperLossesPercent+")";
 							break;
 		case PaperTiesHTML: 
+							PaperTiesHTML.innerHTML = "Paper Ties: "+PaperTies+" ("+PaperTiesPercent+")";
 							break;	
-		case ScissorsWinsHTML: 
+		case ScissorsWinsHTML:
+							ScissorsWinsHTML.innerHTML = "Scissors Wins: "+ScissorsWins+" ("+ScissorsWinsPercent+")"; 
 							break;
 		case ScissorsLossesHTML: 
+							ScissorsLossesHTML.innerHTML = "Scissors Losses: "+ScissorsLossess+" ("+ScissorsLossesPercent+")";
 							break;
 		case ScissorsTiesHTML: 
+							ScissorsTiesHTML.innerHTML = "Scissors Ties: "+ScissorsTies+" ("+ScissorsTiesPercent+")";
 							break;
-		case WinsHTML: 
+		case WinsHTML:
+							WinsHTML.innerHTML = "Wins: "+Wins+" ("+WinsPercent+")"; 
 							break;	
 		case LossesHTML: 
+							LossesHTML.innerHTML = "Losses: "+Losses+" ("+LossesPercent+")";
 							break;
 		case TiesHTML: 
+							TiesHTML.innerHTML = "Ties: "+Ties+" ("+TiesPercent+")";
 							break;
 		case AmountOfGamesHTML: 
 							AmountOfGamesHTML.innerHTML = "Games simulated: "+Simulations;
@@ -195,5 +206,16 @@ function Rename(element) {
 }
 
 Rename(RockWinsHTML);
+Rename(RockLossesHTML);
+Rename(RockTiesHTML);
+Rename(PaperWinsHTML);
+Rename(PaperLossesHTML);
+Rename(PaperTiesHTML);
+Rename(ScissorsWinsHTML);
+Rename(ScissorsLossesHTML);
+Rename(ScissorsTiesHTML);
+Rename(WinsHTML);
+Rename(LossesHTML);
+Rename(TiesHTML);
 Rename(AmountOfGamesHTML);
 
