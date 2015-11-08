@@ -190,13 +190,13 @@ function Rename(element) {
 							ScissorsTiesHTML.innerHTML = "Scissors Ties: "+ScissorsTies+" ("+ScissorsTiesPercent+")";
 							break;
 		case WinsHTML:
-							WinsHTML.innerHTML = "Wins: "+Wins+" ("+WinsPercent+")"; 
+							WinsHTML.innerHTML = "Total Wins: "+Wins+" ("+WinsPercent+")"; 
 							break;	
 		case LossesHTML: 
-							LossesHTML.innerHTML = "Losses: "+Losses+" ("+LossesPercent+")";
+							LossesHTML.innerHTML = "Total Losses: "+Losses+" ("+LossesPercent+")";
 							break;
 		case TiesHTML: 
-							TiesHTML.innerHTML = "Ties: "+Ties+" ("+TiesPercent+")";
+							TiesHTML.innerHTML = "Total Ties: "+Ties+" ("+TiesPercent+")";
 							break;
 		case AmountOfGamesHTML: 
 							AmountOfGamesHTML.innerHTML = "Games simulated: "+Simulations;

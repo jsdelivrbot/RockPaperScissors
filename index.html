@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-</style>
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
 <script>
 function LetsGo() {
@@ -18,11 +14,33 @@ $.getScript("https://rawgit.com/PenguinGovernor/RockPaperScissors/master/new_ana
 });
 
 }
-
-
 </script>
+
+<style>
+body {
+	background-color: #004d40;
+}
+
+table, th, td {
+    border: 3px solid #e65100;
+    border-collapse: collapse;
+    color: white;
+    font-style: italic;
+}
+
+#uhhidk{
+	color: white;
+	font-size: 2em;
+}
+</style>
+
+	<title>Simulator &#128516;</title>
 </head>
 <body>
+<div align="center">
+	<p id="uhhidk"> <strong> <em> Rock, Paper, Scissor, Simulator </em></strong></p>
+</div>
+
 <div align=center>
 <table style="width:100%">
 	<tr> 
@@ -50,8 +68,9 @@ $.getScript("https://rawgit.com/PenguinGovernor/RockPaperScissors/master/new_ana
 </tr>
 </table>
 </div>
+<br>
 <div align="center">
-<a onclick="LetsGo();"> Press me!</a>
+<a class="waves-effect waves-light btn orange darken-4"  onclick="LetsGo()">Press Me To Start &#128516;</a>
 </div>
 </body>
 </html>
