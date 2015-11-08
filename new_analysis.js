@@ -184,7 +184,7 @@ function Rename(element) {
 							ScissorsWinsHTML.innerHTML = "Scissors Wins: "+ScissorsWins+" ("+ScissorsWinsPercent+")"; 
 							break;
 		case ScissorsLossesHTML: 
-							ScissorsLossesHTML.innerHTML = "Scissors Losses: "+ScissorsLossess+" ("+ScissorsLossesPercent+")";
+							ScissorsLossesHTML.innerHTML = "Scissors Losses: "+ScissorsLosses+" ("+ScissorsLossesPercent+")";
 							break;
 		case ScissorsTiesHTML: 
 							ScissorsTiesHTML.innerHTML = "Scissors Ties: "+ScissorsTies+" ("+ScissorsTiesPercent+")";
