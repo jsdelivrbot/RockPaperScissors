@@ -212,10 +212,9 @@ Rename(PaperWinsHTML);
 Rename(PaperLossesHTML);
 Rename(PaperTiesHTML);
 Rename(ScissorsWinsHTML);
-Rename(ScissorsLossesHTML);
-Rename(ScissorsTiesHTML);
 Rename(WinsHTML);
 Rename(LossesHTML);
 Rename(TiesHTML);
 Rename(AmountOfGamesHTML);
-
+Rename(ScissorsLossesHTML);
+Rename(ScissorsTiesHTML);
