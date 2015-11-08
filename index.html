@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+<script>
+function LetsGo() {
+	$(function(){
+
+$.getScript("https://rawgit.com/PenguinGovernor/WebStuff/master/something.js");   
+
+});
+
+}
+
+
+</script>
+</head>
+<body>
+<div align=center>
+<table style="width:100%">
+	<tr> 
+	<td id="Gamereviwer"> Games simulated: </td>
+	</tr>
+  <tr>
+    <td id="RockWins">Rock Wins: ()</td>
+    <td id="RockLosses">Rock Losses: ()</td>		
+    <td id="RockTies">Rock Ties: ()</td>
+  </tr>
+  <tr>
+    <td id="PaperWins">Paper Wins: ()</td>
+    <td id="PaperLosses">Paper Losses: ()</td>		
+    <td id="PaperTies">Paper Ties: ()</td>
+  </tr>
+  <tr>
+    <td id="ScissorsWins">Scissor Wins: ()</td>
+    <td id="ScissorLosses">Scissor Losses: ()</td>		
+    <td id="ScissorTies">Scissors Ties: ()</td>
+  </tr>
+<tr>
+<td id="TotalWins"> Total Wins: () </td>
+<td id="TotalLosses"> Total Losses: () </td>
+<td id="TotalTies"> Total Ties: () </td>
+</tr>
+</table>
+</div>
+<div align="center">
+<a onclick="LetsGo();"> Press me!</a>
+</div>
+</body>
+</html>
