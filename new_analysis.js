@@ -57,7 +57,7 @@ var RockWinsHTML = document.getElementById("RockWins"),
 	PaperTiesHTML = document.getElementById("PaperTies"),
 	ScissorsWinsHTML = document.getElementById("ScissorsWins"),
 	ScissorsLossesHTML = document.getElementById("ScissorLosses"),
-	ScissorsTiesHTML = document.getElementById("ScissorsTies"),
+	ScissorsTiesHTML = document.getElementById("ScissorTies"),
 	WinsHTML = document.getElementById("TotalWins"),
 	LossesHTML = document.getElementById("TotalLosses"),
 	TiesHTML = document.getElementById("TotalTies"),
@@ -151,7 +151,7 @@ if ((Wins===RockWins+PaperWins+ScissorsWins) && (Losses===RockLosses+PaperLosses
 	PaperWinsPercent = CalcPercent(PaperWins) + "%";
 	ScissorsTiesPercent = CalcPercent(ScissorsTies + "%");
 	ScissorsWinsPercent	= CalcPercent(ScissorsWins) + "%";
-	ScissorsLossesPercent = CalcPercent(ScissorsLossesPercent) + "%";
+	ScissorsLossesPercent = CalcPercent(ScissorsLosses) + "%";
 }
 
 // If you get here, then idk what to say to you bud
